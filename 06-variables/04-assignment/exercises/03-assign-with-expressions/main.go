@@ -32,9 +32,11 @@ func main() {
 	// 0. means 0.0
 	n := 0.
 
-	// ADD YOUR CODE BELOW
+	pi := 3.14
 
-	// ?
+	factor := 2
+
+	n = pi * float64(factor)
 
 	fmt.Println(n)
 }
