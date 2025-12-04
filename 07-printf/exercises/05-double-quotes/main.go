@@ -8,6 +8,8 @@
 
 package main
 
+import "fmt"
+
 // ---------------------------------------------------------
 // EXERCISE: Double Quotes
 //
@@ -22,5 +24,7 @@ package main
 // ---------------------------------------------------------
 
 func main() {
-	// ?
+	msg := "hello world"
+
+	fmt.Printf("%q\n", msg)
 }
